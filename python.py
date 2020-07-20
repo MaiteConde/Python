@@ -1,14 +1,3 @@
-D = {"A": 10, "B": -19, "C": "abc"}
-for x in D:
-    print(x,D[x])
-
-a = int(input("Write a numbre"))
-b = int(input("Write a number"))
-if b>a:
-    print("b is greater than a")
-else:
-    print("a is greater than b")
-
 a = int(input("Write a number a"))
 b = int(input("Write a number b"))
 if b>a:
@@ -43,4 +32,5 @@ def addAllNumerics(*args):
     for x in args:
         s+=x
     return s
-myName = "Mai"
+
+
